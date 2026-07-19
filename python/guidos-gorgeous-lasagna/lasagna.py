@@ -11,7 +11,8 @@ of a module and its functions and/or classes.
 EXPECTED_BAKE_TIME = 40
 PREPARATION_TIME = 2
 
-def bake_time_remaining(elapsed_bake_time):
+
+def bake_time_remaining(elapsed_bake_time): 
     """Calculate the bake time remaining.
 
     Parameters:
@@ -20,20 +21,33 @@ def bake_time_remaining(elapsed_bake_time):
     Returns:
         int: The remaining bake time (in minutes) derived from 'EXPECTED_BAKE_TIME'.
     """
-
-return EXPECTED_BAKE_TIME - elapsed_bake_time
-
-
-#TODO (student): Define the 'preparation_time_in_minutes()' function below.
-# To avoid the use of magic numbers (see: https://en.wikipedia.org/wiki/Magic_number_(programming)), you should define a PREPARATION_TIME constant.
-# You can do that on the line below the 'EXPECTED_BAKE_TIME' constant.
-# This will make it easier to do calculations, and make changes to your code.
+    return EXPECTED_BAKE_TIME - elapsed_bake_time
 
 
+def preparation_time_in_minutes(number_of_layers):
+    """Calculate the preparation time.
 
-#TODO (student): define the 'elapsed_time_in_minutes()' function below.
+    Parameters:
+        number_of_layers (int): The number of layers added to the lasagna.
+
+    Returns:
+        int: The total preparation time (in minutes) based on the number of layers.
+    """
+    return number_of_layers * PREPARATION_TIME
 
 
+def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
+    """Calculate the elapsed cooking time.
 
-# TODO (student): Remember to go back and add docstrings to all your functions
-#  (you can copy and then alter the one from bake_time_remaining.)
+    Parameters:
+        number_of_layers (int): The number of layers in the lasagna.
+        elapsed_bake_time (int): Time the lasagna has been baking in the oven.
+
+    Returns:
+        int: The total time elapsed (in minutes) preparing and baking.
+
+    This function takes two integers representing the number of lasagna
+    layers and the time already spent baking the lasagna. It calculates
+    the total elapsed minutes spent cooking (preparing + baking).
+    """
+    return preparation_time_in_minutes(number_of_layers) + elapsed_bake_time
