@@ -6,7 +6,10 @@
 
 
 (defun accumulate (lst op)
-  (error "Delete this S-Expression and write your own implementation"))
+  (if (null lst)
+      nil
+    (cons (funcall op (car lst))
+          (accumulate (cdr lst) op))))
 
 
 (provide 'accumulate)
