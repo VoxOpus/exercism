@@ -10,8 +10,7 @@ def add_prefix_un(word):
     Returns:
         str: Root word prepended with 'un'.
     """
-
-    pass
+    return 'un' + word
 
 
 def make_word_groups(vocab_words):
@@ -31,8 +30,9 @@ def make_word_groups(vocab_words):
         'en :: enclose :: enjoy :: enlighten'.
 
     """
-
-    pass
+    prefix = vocab_words[0]
+    seperator = ' :: ' + prefix
+    return seperator.join(vocab_words)
 
 
 def remove_suffix_ness(word):
@@ -52,8 +52,11 @@ def remove_suffix_ness(word):
         'sad'
 
     """
-
-    pass
+    root_word = word[:-4]
+  
+    if root_word[-1] == "i":
+        return root_word[:-1] + "y"
+    return  root_word
 
 
 def adjective_to_verb(sentence, index):
@@ -74,5 +77,10 @@ def adjective_to_verb(sentence, index):
         'blacken'
 
     """
-
-    pass
+    words = sentence.split()
+    adjective = words[index]
+   
+    if adjective[-1] == ".":
+        adjective = adjective[:-1]
+    return adjective + "en"
+    

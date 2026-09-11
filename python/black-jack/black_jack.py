@@ -18,7 +18,6 @@ def value_of_card(card):
         2.  'A' (ace card) = 1
         3.  '2' - '10' = numerical value.
     """
-
     if card in ['J', 'Q', 'K']:
         return 10
     if card == 'A':
@@ -100,7 +99,6 @@ def can_split_pairs(card_one, card_two):
    Returns:
         bool: Can the hand be split into two pairs? (i.e. cards are of the same value).
     """
-
     return value_of_card(card_one) == value_of_card(card_two)
 
 
@@ -114,5 +112,4 @@ def can_double_down(card_one, card_two):
     Returns:
         bool: Can the hand can be doubled down? (i.e. totals 9, 10 or 11 points).
     """
-
     return 9 <= value_of_card(card_one) + value_of_card(card_two) <= 11
