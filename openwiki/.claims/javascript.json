@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:c0d8e17cbdb6066c2ec893d6a121d972c1d7362a8e9322d498414fe6d21e58bf",
+  "claims": [
+    {
+      "id": "claim_a8301bb2647f411592ede3ec2c67b212",
+      "statement": "The JavaScript track includes the 'hello-world' and 'lasagna' exercises.",
+      "evidence": [
+        {
+          "resource": "repo://javascript/hello-world/README.md",
+          "version": "repo-file-v1:sha256:829dbefb005502edc45e6543f79ca090bcf7587b0859c1b8a8bd84745dc84df3"
+        },
+        {
+          "resource": "repo://javascript/lasagna/README.md",
+          "version": "repo-file-v1:sha256:dac3529883e69872da7b4d6fadb8b8d8319cda1bb11f4b4b825e8e7014ee445f"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-12T04:57:10.699Z"
+  }
+}

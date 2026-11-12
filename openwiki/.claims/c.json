@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:cd2ef17b02bc8cb1e69ee16f5cd9fc4c17d7802a4283291bd184cfc6c01204a8",
+  "claims": [
+    {
+      "id": "claim_ae74ba1d2747406395d2a75e6cce8142",
+      "statement": "The C track includes the 'hello-world', 'leap', and 'difference-of-squares' exercises.",
+      "evidence": [
+        {
+          "resource": "repo://c/difference-of-squares/README.md",
+          "version": "repo-file-v1:sha256:10e0ffc5458936b7d6dc99c562d0ca8cf14e79e021ae57ed8e34ccb32f921771"
+        },
+        {
+          "resource": "repo://c/hello-world/README.md",
+          "version": "repo-file-v1:sha256:2f56654f1e40d63730f7e0fe40ebc0ecd052562dba14ef732061ff77515ea0f1"
+        },
+        {
+          "resource": "repo://c/leap/README.md",
+          "version": "repo-file-v1:sha256:907e2de78ce7cd828afd6f3dd61eb7cd23f56826e7e07affceff7745487f9137"
+        }
+      ]
+    },
+    {
+      "id": "claim_cb1f312e53e547bab70e7a862aa333c4",
+      "statement": "Each C exercise includes a README.md, a HELP.md, and a makefile to run the tests.",
+      "evidence": [
+        {
+          "resource": "repo://c/hello-world/README.md",
+          "version": "repo-file-v1:sha256:2f56654f1e40d63730f7e0fe40ebc0ecd052562dba14ef732061ff77515ea0f1"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-12T04:57:10.699Z"
+  }
+}

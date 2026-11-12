@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "pages": {
+    "/openwiki/c.md": {
+      "pageVersion": "sha256:cd2ef17b02bc8cb1e69ee16f5cd9fc4c17d7802a4283291bd184cfc6c01204a8",
+      "completedBy": "pi",
+      "completedRunId": "b7663447-9785-45e2-98c7-5d34c4132852",
+      "gitHead": "a3f0e0fef6e9cc898c002bbbd2f943fdc9cfec35",
+      "sourceFingerprint": "sha256:6dd6049112d4ef40354976f410b85b89cdb95350956d7b6567b37c50adb2519b"
+    },
+    "/openwiki/emacs-lisp.md": {
+      "pageVersion": "sha256:9d4736110d1a3f3f31348ee907f96e79d07f6892fdd400edceec2b4357eecc0e",
+      "completedBy": "pi",
+      "completedRunId": "b7663447-9785-45e2-98c7-5d34c4132852",
+      "gitHead": "a3f0e0fef6e9cc898c002bbbd2f943fdc9cfec35",
+      "sourceFingerprint": "sha256:6dd6049112d4ef40354976f410b85b89cdb95350956d7b6567b37c50adb2519b"
+    },
+    "/openwiki/go.md": {
+      "pageVersion": "sha256:248c40ba5fbcda0aac5ad471ddba6c581ddea5b444c34c99f75a494748a0a12c",
+      "completedBy": "pi",
+      "completedRunId": "b7663447-9785-45e2-98c7-5d34c4132852",
+      "gitHead": "a3f0e0fef6e9cc898c002bbbd2f943fdc9cfec35",
+      "sourceFingerprint": "sha256:6dd6049112d4ef40354976f410b85b89cdb95350956d7b6567b37c50adb2519b"
+    },
+    "/openwiki/javascript.md": {
+      "pageVersion": "sha256:c0d8e17cbdb6066c2ec893d6a121d972c1d7362a8e9322d498414fe6d21e58bf",
+      "completedBy": "pi",
+      "completedRunId": "b7663447-9785-45e2-98c7-5d34c4132852",
+      "gitHead": "a3f0e0fef6e9cc898c002bbbd2f943fdc9cfec35",
+      "sourceFingerprint": "sha256:6dd6049112d4ef40354976f410b85b89cdb95350956d7b6567b37c50adb2519b"
+    },
+    "/openwiki/python.md": {
+      "pageVersion": "sha256:d6ea1bc58fa9dffddae1d983897e95e86cdcfd3dc567c9c92716225b241b70d8",
+      "completedBy": "pi",
+      "completedRunId": "b7663447-9785-45e2-98c7-5d34c4132852",
+      "gitHead": "a3f0e0fef6e9cc898c002bbbd2f943fdc9cfec35",
+      "sourceFingerprint": "sha256:6dd6049112d4ef40354976f410b85b89cdb95350956d7b6567b37c50adb2519b"
+    },
+    "/openwiki/quickstart.md": {
+      "pageVersion": "sha256:0d905d6b6eeb50c9822276d649bbd13fe8476792300cf4f4334c737ba95b7406",
+      "completedBy": "pi",
+      "completedRunId": "b7663447-9785-45e2-98c7-5d34c4132852",
+      "gitHead": "a3f0e0fef6e9cc898c002bbbd2f943fdc9cfec35",
+      "sourceFingerprint": "sha256:6dd6049112d4ef40354976f410b85b89cdb95350956d7b6567b37c50adb2519b"
+    }
+  }
+}

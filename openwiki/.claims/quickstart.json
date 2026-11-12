@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:0d905d6b6eeb50c9822276d649bbd13fe8476792300cf4f4334c737ba95b7406",
+  "claims": [
+    {
+      "id": "claim_259852b6a59941caba4fe37b501f74e8",
+      "statement": "The repository contains solutions for Exercism programming exercises.",
+      "evidence": [
+        {
+          "resource": "repo://README.md",
+          "version": "repo-file-v1:sha256:7270fcecf29f9c9838f84bd16ae85a56349a120b7836f1b1d0babe0b43545351"
+        }
+      ]
+    },
+    {
+      "id": "claim_ed4c02cb29c2461db931e16978adc78b",
+      "statement": "Each exercise directory contains a README.md and a HELP.md file, along with the source and test files.",
+      "evidence": [
+        {
+          "resource": "repo://c/hello-world/README.md",
+          "version": "repo-file-v1:sha256:2f56654f1e40d63730f7e0fe40ebc0ecd052562dba14ef732061ff77515ea0f1"
+        },
+        {
+          "resource": "repo://python/hello-world/README.md",
+          "version": "repo-file-v1:sha256:a8be6487d9833269d850003145ac8b09cd30eed3f8d75cb310a834f64c358be6"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-12T04:57:10.699Z"
+  }
+}

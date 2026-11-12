@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9d4736110d1a3f3f31348ee907f96e79d07f6892fdd400edceec2b4357eecc0e",
+  "claims": [
+    {
+      "id": "claim_d2dfa0c22c3b42fd9d8081585f7fd912",
+      "statement": "The Emacs Lisp track includes the 'hello-world', 'accumulate', and 'acronym' exercises.",
+      "evidence": [
+        {
+          "resource": "repo://emacs-lisp/accumulate/README.md",
+          "version": "repo-file-v1:sha256:9a4543bef48fc70247522c0db236e8a9f8d8e90db1038120bd0cf41c163f4478"
+        },
+        {
+          "resource": "repo://emacs-lisp/acronym/README.md",
+          "version": "repo-file-v1:sha256:b26ee824d1e87b057d05a5e2e441d5230f345d22a3f9e02d331f2b3dad11ce7f"
+        },
+        {
+          "resource": "repo://emacs-lisp/hello-world/README.md",
+          "version": "repo-file-v1:sha256:0d53e54d8e5f334ec370925f5a97e75b0426db9753355eb4810dc098885af0b5"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-12T04:57:10.699Z"
+  }
+}

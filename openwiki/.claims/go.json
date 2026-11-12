@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:248c40ba5fbcda0aac5ad471ddba6c581ddea5b444c34c99f75a494748a0a12c",
+  "claims": [
+    {
+      "id": "claim_bf2ad823e9174c0f9965a13ce22e769e",
+      "statement": "The Go track includes the 'hello-world', 'annalyns-infiltration', and 'lasagna' exercises.",
+      "evidence": [
+        {
+          "resource": "repo://go/annalyns-infiltration/README.md",
+          "version": "repo-file-v1:sha256:37f85503e7e77657bb7aba38804923ece314ae9ca6b38018a76e1133ca686e6e"
+        },
+        {
+          "resource": "repo://go/hello-world/README.md",
+          "version": "repo-file-v1:sha256:1fad886ae0a683832301375bb351bb50139eb59c8a0b92fe3c94bf111e7d68c9"
+        },
+        {
+          "resource": "repo://go/lasagna/README.md",
+          "version": "repo-file-v1:sha256:34f4ea2883256e059073332001d39786302908431363ef21d8ee64aeaa468798"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-12T04:57:10.699Z"
+  }
+}
